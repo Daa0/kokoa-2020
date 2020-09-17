@@ -4,6 +4,7 @@
 
 /* Components*/
 @import "components/status-bar.css";
+@import "components/navigation-bar.css";
 
 /*Screens*/
 @import "screens/login.css";
@@ -11,4 +12,4 @@
 body {
   font-family: "Open Sans", sans-serif;
   font-weight: 400;
-}
+ß}

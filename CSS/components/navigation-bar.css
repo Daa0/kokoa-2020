@@ -1,0 +1,33 @@
+.nav {
+  background-color: #f9f9fa;
+  padding: 20px 40px;
+  box-sizing: border-box;
+  position: fixed;
+  bottom: 0px;
+  width: 100%;
+  border-top: 1px solid rgba(124, 124, 124, 0.3);
+}
+
+.nav__list {
+  display: flex;
+  justify-content: space-between;
+}
+
+.nav__link {
+  position: relative;
+  color: #2e363e;
+}
+
+.nav__notification {
+  display: flex;
+  background-color: tomato;
+  color: white;
+  justify-content: center;
+  align-items: center;
+  height: 18px;
+  width: 18px;
+  border-radius: 9px;
+  position: absolute;
+  left: 12px;
+  bottom: 12px;
+}
