@@ -6,7 +6,7 @@
 .user-component__column:first-child {
   display: flex;
   align-items: center;
-  margin-top: 8px
+  margin-top: 8px;
 }
 
 .user-component__avatar {
@@ -43,5 +43,5 @@
 }
 
 .user-component__column:last-child {
-  color: rgba(0, 0, 0, 0.5);: 
+  color: rgba(0, 0, 0, 0.4);
 }
