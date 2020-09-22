@@ -1,0 +1,129 @@
+.find-header__icons {
+  position: relative;
+}
+
+.cog-dot {
+  color: tomato;
+  position: absolute;
+  bottom: 25px;
+}
+
+.find-icons {
+  display: flex;
+  justify-content: space-between;
+}
+
+.find-icons__icon {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 20px 10px 0px 10px;
+}
+
+.find-icons__icon i {
+  font-size: 30px;
+}
+
+.find-icons__icon span {
+  margin-top: 20px;
+}
+
+.recommended-friends {
+  border-top: var(--main-border);
+  border-bottom: var(--main-border);
+  margin: 25px 0px;
+  padding: 25px 0px;
+  color: var(--main-text-gray);
+}
+
+.recommended-friends__title {
+  font-size: 17px;
+}
+
+.recommended-friends span {
+  display: block;
+  margin: 100px 0px;
+  font-size: 19px;
+  text-align: center;
+}
+
+.open-chat {
+  color: var(--main-text-gray);
+  display: flex;
+  justify-content: space-between;
+  font-size: 17px;
+}
+
+.open-chat__subtitle {
+  opacity: 0.6;
+}
+
+.open-post {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 43px;
+  text-transform: uppercase;
+}
+
+.open-post__column {
+  color: var(--main-text-gray);
+}
+
+.open-post__title {
+  font-size: 23px;
+  color: black;
+}
+
+.open-post__hashtags {
+  margin: 13px 0px;
+  font-size: 20px;
+}
+
+.open-post__members img {
+  width: 20px;
+  height: 20px;
+  border-radius: 10px;
+  margin-right: 5px;
+}
+
+.open-post__members {
+  display: flex;
+  text-transform: lowercase;
+  font-size: 17px;
+}
+
+.divider {
+  width: 1px;
+  height: 18px;
+  background-color: var(--main-text-gray);
+  margin: 0px 5px;
+}
+
+.open-post__member-status {
+  color: rgb(255, 123, 204);
+}
+
+.open-post__member-status::first-letter {
+  text-transform: uppercase;
+}
+
+.open-post__photo {
+  width: 120px;
+  height: 120px;
+  border-radius: 10px;
+}
+
+.open-post__heart-number {
+  background-color: rgba(0, 0, 0, 0.5);
+  color: white;
+  padding: 4px 8px;
+  border-radius: 15px;
+  position: absolute;
+  bottom: 10px;
+  right: 10px;
+}
+
+.open-post__column:nth-child(2) {
+  position: relative;
+}
