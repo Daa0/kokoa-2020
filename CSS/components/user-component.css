@@ -52,3 +52,13 @@
 .user-component__time {
   margin-bottom: 10px;
 }
+
+.user-componen__subtitle-div {
+  display: flex;
+}
+
+.user-componen__subtitle-div i {
+  margin-top: 9px;
+  margin-left: 5px;
+  color: tomato;
+}
