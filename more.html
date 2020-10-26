@@ -29,12 +29,11 @@
         <div class="screen-header__icons">
             <span><i class="fas fa-search fa-2x"></i></span>
             <span><i class="fas fa-music fa-2x"></i></span>
-            <span><i class="fas fa-cog fa-2x"></i></span>
-            </span>
+            <span><a href="settings.html"><i class="fas fa-cog fa-2x"></i></a></span>
         </div>
     </header>
 
-    <main class="main-screen">
+    <main class="main-screen more-screen">
         <div class="user-component">
             <div class="user-component__column">
                 <img src="https://avatars3.githubusercontent.com/u/71061229?s=60&v=4"
@@ -51,22 +50,48 @@
                 <span><i class="far fa-comment-alt fa-2x"></i></span>
             </div>
         </div>
-        <div class="find-icons more-screen-icons">
-            <div class="find-icons__icon">
+        <div class="icon-row">
+            <div class="icon-row__icon">
                 <i class="far fa-calendar-check"></i>
                 <span>Calendar</span>
             </div>
-            <div class="find-icons__icon">
-                <i class="far fa-hdd"></i> <span>Talk Drive</span>
+            <div class="icon-row__icon">
+                <div class="drive-dot">
+                    <i class="far fa-hdd"></i>
+                    <i class="fas fa-circle fa-xs dot"></i>
+                </div>
+                <span>Talk Drive</span>
             </div>
-            <div class="find-icons__icon">
+            <div class="icon-row__icon">
                 <i class="far fa-grin-alt"></i>
                 <span>Emoticons</span>
             </div>
-            <div class="find-icons__icon">
+            <div class="icon-row__icon">
                 <i class="far fa-comments"></i> <span>Openchat</span>
             </div>
         </div>
+        <div class="suggestions">
+            <h4 class="suggestions-title">Suggestions</h4>
+            <div class="suggestions-icons">
+                <div class="suggestions-icons__icon">
+                    <div class="suggestions-icons__icon-image">
+                        <i class="fas fa-quote-right"></i>
+                    </div>
+                    <span>Kokoa Story</span>
+                </div>
+                <div class="suggestions-icons__icon">
+                    <div class="suggestions-icons__icon-image">
+                        <i class="fas fa-cat"></i>
+                    </div>
+                    <span>Kokoa friends</span>
+                </div>
+                <div class="suggestions-icons__icon">
+                    <div class="suggestions-icons__icon-image">
+                        <i class="fas fa-gamepad"></i>
+                    </div>
+                    <span>Friends Gem</span>
+                </div>
+            </div>
     </main>
 
     <nav class="nav">
