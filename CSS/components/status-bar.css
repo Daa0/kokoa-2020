@@ -4,6 +4,8 @@
   padding: 5px 3px;
   font-size: 17px;
   font-weight: 600;
+  width: 100%;
+  box-sizing: border-box;
 }
 .status-bar__column {
   width: 33%;
